@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>ElectroCart</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+        </div>
+        <div class="nav-links">
+            <a href="#">Cart (<span id="cart-count">0</span>)</a>
+        </div>
+    </header>
+
+    <!-- Main Section with Products -->
+    <main>
+        <section id="products">
+            <!-- Products will be injected here via JavaScript -->
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 YourBusiness. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#" id="aboutUsLink">About Us</a>
+            <a href="#" id="contactUsLink">Contact Us</a>
+        </div>
+    </footer>
+
+    <!-- Contact Us Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeContactModal">&times;</span>
+            <h2>Contact Information</h2>
+            <p>Email: your-email@example.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: 1234 Street, City, Country</p>
+        </div>
+    </div>
+
+    <!-- About Us Modal -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeAboutModal">&times;</span>
+            <h2>About Us</h2>
+            <p>We are ElectroCart, providing the best electronics at the best prices.</p>
+            <p>Our mission is to help tech enthusiasts find the best gadgets in one place.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="app.js"></script>
+</body>
+</html>
