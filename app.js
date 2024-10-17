@@ -2,7 +2,7 @@ const products = [
     { id: 1, name: 'JBL Headset', price: 1999, image: 'images/download (4).jpeg' },
     { id: 2, name: 'Firebolt watch', price: 2499, image: 'images/WhatsApp Image 2024-10-10 at 10.55.05_2cbd2045.jpg' },
     { id: 3, name: 'Amazon Alexa', price: 999, image: 'images/download.jpeg' },
-    { id: 4, name: 'SONY Camera', price: 2999, image: 'images/download (1).jpeg' },
+    { id: 4, name: 'SONY Camera', price: 5, image: 'images/download (1).jpeg' },
     { id: 5, name: 'Meta Quest 3', price: 3499, image: 'images/vr-virtual-reality-headset-on-260nw-2294638591.webp' },
     { id: 6, name: 'Philips Trimmer', price: 1799, image: 'images/WhatsApp Image 2024-10-10 at 11.47.05_b7f0191c.jpg' },
     { id: 7, name: 'JBL Bluetooth Speaker', price: 1299, image: 'images/WhatsApp Image 2024-10-10 at 11.47.06_cd3fea25.jpg' },
